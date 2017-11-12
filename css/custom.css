@@ -1,0 +1,40 @@
+body #home {
+  color: #333;
+}
+.navbar .navbar-brand {
+  color: rgba(255, 255, 255, 0.85);
+  font-size: 1rem;
+  
+}
+
+.custom-colour {
+  background-color: #444342;
+}
+
+.jumbotron {
+  background-image: url('../img/jumbo-bg.jpg');
+  background-size: cover;
+  margin-top: 56px;
+}
+
+/* fix for fixed header covering anchor tag */
+ #about{
+   margin-top: -112px
+ }
+
+#speakers::before { 
+  display: block; 
+  content: " "; 
+  margin-top: -112px; 
+  height: 112px; 
+  visibility: hidden; 
+  pointer-events: none;
+}
+#schedule::before { 
+  display: block; 
+  content: " "; 
+  margin-top: -112px; 
+  height: 112px; 
+  visibility: hidden; 
+  pointer-events: none;
+}
